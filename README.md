@@ -1,2 +1,13 @@
-# powerBi_dashboard_project
-JIM Project 
+Loan Default Prediction Project - Analytics Dashboard using Power BI
+
+Overall Detailed Observation – Loan Default Prediction Dashboard Project
+
+The Loan Default Prediction Dashboard provides a comprehensive and data-driven view of loan approval and default behavior by analyzing multiple critical factors such as loan purpose, credit score, income level, region, gender, and loan status. The project effectively combines interactive visuals and DAX calculations to transform raw loan data into meaningful insights that support better financial decision-making.
+
+From the treemap analysis, it is observed that loan defaults are concentrated in specific loan purposes rather than being evenly distributed. This highlights that certain types of loans inherently carry higher risk and therefore require stricter credit assessment and monitoring. The scatter plot further reinforces the importance of credit score by showing a clear positive relationship between higher credit scores and increased loan approvals, confirming that credit history is a key determinant in lending decisions.
+
+The stacked bar chart comparing approved and disapproved loans reveals noticeable variation across different categories such as regions or loan purposes. Some segments demonstrate a strong approval ratio, indicating stable borrower profiles, while others show higher disapproval proportions, reflecting elevated risk or stricter lending criteria. The regional bar chart complements this insight by identifying geographical areas with higher default occurrences, suggesting that economic and demographic conditions significantly influence repayment behavior.
+
+The pie chart provides a high-level summary of overall loan performance, showing that approved loans form the majority of the portfolio, while defaulted loans still represent a significant portion that cannot be ignored. This balance indicates a generally healthy lending system but also emphasizes the need for improved risk mitigation strategies. Additionally, the column chart comparing average income clearly shows that approved borrowers tend to have higher income levels than defaulted borrowers, validating income as a crucial factor in repayment capacity.
+
+The inclusion of interactive slicers enhances the dashboard’s usability by allowing users to dynamically filter data and observe how loan behavior changes across different demographics and categories. Overall, the project successfully demonstrates how Power BI, DAX measures, and data visualization can be used together to identify risk patterns, improve credit decision-making, and support strategic planning in financial institutions. This dashboard is not only analytically strong but also practical, scalable, and suitable for real-world banking and finance applications.
