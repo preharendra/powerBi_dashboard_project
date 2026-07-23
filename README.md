@@ -1,121 +1,171 @@
-⭐ Project Overview (STAR Method)
+# 📊 Loan Default Prediction Dashboard | Power BI
 
-📌 Situation
+## 🚀 Project Overview
 
-Financial institutions process thousands of loan applications every day, making it challenging to identify high-risk borrowers and monitor portfolio health efficiently. Manual analysis of loan performance is time-consuming and limits the ability to make data-driven lending decisions. This project analyzes 148,671 loan applications to uncover patterns in loan approvals and defaults through interactive dashboards.
+An interactive Power BI dashboard developed to analyze **148,671 loan applications** and identify the key factors influencing loan approvals and defaults. The dashboard enables financial institutions to monitor portfolio health, evaluate borrower risk, and support data-driven lending decisions through advanced visualizations and DAX measures.
 
-🎯 Task
+---
 
-The objective was to build an interactive Power BI Loan Default Prediction Dashboard that enables stakeholders to:
+# ⭐ STAR Method
 
-Monitor overall loan portfolio performance.
+## 🟢 Situation
 
-Identify high-risk loan categories and regions.
+Financial institutions process thousands of loan applications, making it difficult to identify high-risk borrowers using raw data. The dataset contained inconsistent values, missing records, and unstructured information, limiting meaningful analysis and increasing the risk of inaccurate lending decisions.
 
-Analyze borrower behavior using credit score, income, loan purpose, gender, and geography.
+---
 
-Support data-driven lending and risk management decisions through business intelligence dashboards.
+## 🎯 Task
 
-⚡ Action
+Design a Power BI dashboard that:
 
-To accomplish this project, the following steps were performed:
+- Cleans and transforms raw loan data
+- Tracks loan approval and default performance
+- Identifies high-risk customer segments
+- Provides actionable insights for portfolio monitoring
+- Supports strategic lending and risk management
 
-📊 Data Preparation
+---
 
-Cleaned and transformed the loan dataset using Power Query.
+## ⚙️ Action
 
-Standardized categorical values (e.g., Gender categories).
+### Data Preparation
+- Imported **148,671 loan records**
+- Cleaned missing and inconsistent data using Power Query
+- Standardized gender categories
+- Converted loan status codes into readable values
+- Calculated Loan-to-Value (LTV) and Debt-to-Income (DTI) ratios
+- Created calculated columns and business metrics
 
-Created meaningful Loan Status labels (Approved/Defaulted).
+### Data Modeling
+- Developed DAX measures for:
+  - Default Count
+  - Approved Loan Count
+  - Approval Rate
+  - Portfolio KPIs
+- Optimized the data model for better dashboard performance
 
-Handled missing values using median, average, and calculated business metrics.
+### Dashboard Development
+Created interactive Power BI visuals including:
 
-Calculated financial ratios such as Loan-to-Value (LTV) and Debt-to-Income (DTI).
+- 📌 Executive KPI Cards
+- 🌳 Treemap (Loan Purpose vs Defaults)
+- 📈 Scatter Plot (Credit Score vs Loan Approval)
+- 🥧 Approval vs Default Pie Chart
+- 📊 Regional Default Analysis
+- 📉 Stacked Bar Chart (Approved vs Defaulted Loans)
+- 🎛 Interactive Slicers for dynamic filtering
 
-📈 Dashboard Development
+### Business Analysis
+Analyzed loan performance based on:
 
-Built an interactive Power BI dashboard featuring:
+- Credit Score
+- Income
+- Loan Purpose
+- Region
+- Gender
+- Loan Status
+- Portfolio Risk
 
-Portfolio KPI Cards
+---
 
-Loan Approval vs Default Analysis
+## 📈 Result
 
-Credit Score vs Loan Approval Scatter Plot
+- Successfully analyzed **148,671 loan applications**
+- Improved visibility into loan portfolio performance
+- Identified high-risk loan purposes and regions
+- Demonstrated the positive relationship between credit score and loan approval
+- Enabled faster, data-driven lending decisions through interactive dashboards
+- Built a scalable reporting solution suitable for banking and financial analytics
 
-Loan Purpose Default Treemap
+---
 
-Regional Default Analysis
+# 📌 Key Features
 
-Approved vs Disapproved Comparison
+✅ Interactive Power BI Dashboard
 
-Interactive Slicers and Filters
+✅ Dynamic KPI Monitoring
 
-Dynamic DAX Measures for business KPIs.
+✅ DAX Calculations
 
-🛠️ Technologies Used
+✅ Loan Default Analysis
 
-Microsoft Power BI
+✅ Credit Risk Assessment
 
-Power Query
+✅ Regional Performance Analysis
 
-DAX
+✅ Portfolio Health Monitoring
 
-Microsoft Excel
+✅ Interactive Filters & Drill-down Analysis
 
-Data Cleaning & Transformation
+---
 
-Data Visualization
+# 🛠️ Tech Stack
 
-Business Intelligence
+- Microsoft Power BI
+- Power Query
+- DAX
+- Microsoft Excel
+- Data Cleaning
+- Data Modeling
+- Business Intelligence
 
-📈 Result
+---
 
-The dashboard successfully transformed raw loan data into actionable business insights by:
+# 📊 Dashboard KPIs
 
-Analyzing 148,671 loan records to evaluate portfolio health.
+- Total Loan Applications
+- Approval Rate
+- Default Rate
+- Average Credit Score
+- Total Loan Portfolio Value
+- Approved Loans
+- Defaulted Loans
 
-Identifying loan purposes with the highest default risk.
+---
 
-Demonstrating that higher credit scores strongly correlate with loan approvals.
+# 📈 Business Insights
 
-Highlighting regional variations in loan defaults.
+- Higher credit scores significantly improve loan approval probability.
+- Certain loan purposes contribute disproportionately to loan defaults.
+- Loan defaults vary across geographical regions.
+- Higher-income applicants generally exhibit lower default risk.
+- Interactive filtering enables rapid portfolio exploration and supports better lending decisions.
 
-Enabling interactive filtering for faster business analysis.
+---
 
-Supporting risk assessment and strategic lending decisions through real-time visual analytics.
+# 📂 Repository Structure
 
-💼 Business Impact
+```
+📁 Loan-Default-Prediction-Dashboard
+│
+├── Dataset
+├── Power BI Dashboard (.pbix)
+├── Dashboard Screenshots
+├── README.md
+└── Documentation
+```
 
-✔ Improved visibility into loan portfolio performance
+---
 
-✔ Enabled data-driven credit risk assessment
+# 🎯 Business Impact
 
-✔ Reduced manual reporting through automated dashboards
+This dashboard helps financial institutions:
 
-✔ Identified high-risk borrower segments
+- Reduce lending risk
+- Improve credit evaluation
+- Monitor portfolio performance
+- Identify high-risk borrower segments
+- Support strategic decision-making using business intelligence
 
-✔ Enhanced decision-making using interactive Power BI visualizations
+---
 
-🎯 Key Skills Demonstrated
+# 👨‍💻 Author
 
-Business Intelligence (BI)
+**Harendra**
 
-Data Analytics
+MBA (Business Analytics)
 
-Power BI Dashboard Development
+Power BI | SQL | Python | Excel | Business Intelligence
 
-Power Query (ETL)
-
-DAX Calculations
-
-Data Cleaning & Transformation
-
-Financial Risk Analysis
-
-KPI Development
-
-Interactive Data Visualization
-
-Analytical Problem Solving
-
-
+---
+⭐ If you found this project useful, don't forget to Star the repository!
